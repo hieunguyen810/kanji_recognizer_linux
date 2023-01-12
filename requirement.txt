@@ -1,0 +1,4 @@
+pyautogui
+pandas
+sklearn
+opencv
