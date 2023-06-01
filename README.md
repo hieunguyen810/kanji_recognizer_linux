@@ -10,8 +10,8 @@ This is linux application uses for translate Japanese Kanji to English and Vietn
 - Install requirement package by pip: pip install -r requirement.txt
 - Run index.py
 ## Docker
-docker run -v /dataset:/dataset
-
+docker build -t kanji .
+docker run kanji
 
 ## Note: 
 Not yet completed
